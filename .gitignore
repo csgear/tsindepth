@@ -97,3 +97,4 @@ yarn-error.log*
 /.idea/misc.xml
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/vcs.xml
+/.idea/*
