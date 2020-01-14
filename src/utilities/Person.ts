@@ -16,9 +16,14 @@ export class Person {
   print(@parameterDeco name: string) {
     console.log(`Person.print(${name}) is called`);
   }
+
+  toString() {
+    return JSON.stringify(this);
+  }
 }
 
 const person1: Person = new Person();
 const person2: Person = new Person();
 
 person1.print("Jeff");
+person2.print("Alex");
